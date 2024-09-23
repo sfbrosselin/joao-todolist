@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function TodoCard(props) {
     const {children, handleDeleteTodo, index, handleEditTodo} = props
   return (
