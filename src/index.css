@@ -80,11 +80,15 @@ p {
   border-radius: 14px;
   background: white;
   margin-block: 1vh;
+  max-width:35vw;
 }
 
 .todoItem p {
   flex: 1;
   font-size: 2em;
+}
+.todoItem i{
+  font-size:xx-large
 }
 
 .actionsContainer {
