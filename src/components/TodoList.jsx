@@ -3,7 +3,7 @@ export default function TodoList(props) {
   const {todos} = props
   
   return (
-    <ul className ='Main'>
+    <ul className ='main'>
       {todos.map((todo, todoIndex) => {
         return(
           <TodoCard {...props} key={todoIndex} index={todoIndex}>

@@ -80,12 +80,12 @@ p {
   border-radius: 14px;
   background: white;
   margin-block: 1vh;
-  max-width:35vw;
 }
 
 .todoItem p {
   flex: 1;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'Press Start 2P', system-ui;
 }
 .todoItem i{
   font-size:xx-large
